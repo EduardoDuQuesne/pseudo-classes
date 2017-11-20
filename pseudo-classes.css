@@ -1,0 +1,21 @@
+/******************
+    REQUIREMENT 1
+*******************/
+li.block {
+    list-style-type: none;
+    display: inline;
+}
+/******************
+    REQUIREMENT 2
+*******************/
+span.inline {
+    display: block;
+    border: 1px solid black;
+    padding: 25px;
+}
+/******************
+    REQUIREMENT 3
+*******************/
+article.n-child section:nth-child(2n+3) {
+    border: 1px solid red;
+}
